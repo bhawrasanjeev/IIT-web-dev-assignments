@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title> Student Information Card</title>
+</head>
+
+<body>
+
+    <div class="header">
+        <div class="navbar">
+            <h1>Student Information Card</h1>
+        </div>
+    </div>
+
+
+    <div class="inputs-container">
+        <form action="process.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Eg:sanjeev" name="name" required><br><br>
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" placeholder="Eg: 25" name="age" required><br><br>
+
+            <label for="course">Course:</label>
+            <input type="text" id="course" placeholder="Eg: MERN stack" name="course" required><br><br>
+
+            <button class="btn" type="button">Show Details</button>
+        </form>
+    </div>
+<div id="student-card"></div>
+
+    <script src="logic.js"></script>
+</body>
+
+</html>
