@@ -29,7 +29,7 @@ body{
 .header h1 {
 
     font-size: 2.5rem;
-    text-shadow: 3px 8px 9px var(--accent);  
+    /* text-shadow: 3px 8px 9px var(--accent);   */
     margin-bottom: 10px;
 }
 .navbar {
@@ -54,6 +54,7 @@ body{
     min-height:15rem;
     border-radius:15px;
     margin-bottom:20px;
+    border: 1px solid white;
 }
 .inputs-container:hover{
     box-shadow:0 4px 6px var(--accent)
@@ -71,7 +72,7 @@ body{
     border-radius:10px;
     width:100%;
     background:var(--panel);
-    color:rgb(125, 123, 123);
+    color:rgb(255, 255, 255);
     outline:2px solid transparent;
     transition:outline-color .15s ease,box-shadow .15s ease;
 }
@@ -103,6 +104,7 @@ body{
 }
 .btn:hover{
     opacity:.95;
+    border: 0.8px solid white;
     box-shadow:0 4px 6px var(--accent)
 }
 
@@ -110,7 +112,9 @@ body{
     width: 100%;
     width: 400px;
     margin-top: 20px;
+    /* border: 1px solid white; */
     display: flex;
+    border-radius: 16px;
     text-align: inline-block;
     justify-content: center;
     /* text-align: center; */
@@ -125,7 +129,7 @@ body{
 .card {
     width: 100%;
     background: linear-gradient(135deg, var(--backgrdcolor), #81818148);
-    border: 1px solid rgba(255,255,255,0.12);
+    border: 1px solid white;
     border-radius: 16px;
     padding: 24px;
     box-shadow: 0 5px 10px rgba(255, 255, 255, 0.829);
@@ -158,12 +162,13 @@ body{
     color:var(--fontColor);
     padding:10px 14px;
     border-radius:15px;
-    border:none;
+    /* border:none; */
     cursor:pointer
 
 }
 .close-btn:hover{
     opacity:.95;
+        border: 0.8px solid white;
     box-shadow:0 4px 6px var(--accent)
 }
 
